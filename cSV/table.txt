@@ -1,0 +1,1 @@
+"\ufeffNumero de factura|Nombre del cliente|Apellido del cliente|Identificacion del cliente|Codigo del item|Descripcion del item|Precio unitario|Porcentaje de descuento|\n107389451|Raul|Martinez|109245733|7894|revista|15000|10|\n105679451|Maria|Santiago|107892233|3278|varios|30000|15|\n"
