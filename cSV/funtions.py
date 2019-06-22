@@ -3,16 +3,18 @@ import json
 
 
 def write_jason(data):
-    with open('table.txt','w') as table:
+    with open('table.json','w') as table:
         json.dump(data,table)
 
 def read_jason():
-    with open('table.txt') as table:
+    with open('table.json','r') as table:
         content = json.load(table)
+
+    print("Contenido")
     print(content)
     return content
 
-def save(data):
+def save_data(data):
     data_all = ""
     for row in data:
         for e in row:
@@ -21,17 +23,15 @@ def save(data):
     print(data_all)
     write_jason(data_all)
 
-def init():
+def load(root):
     data = []
-    with open('test.csv','r') as csvfile:
+    with open(root,'r') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             data.append(row[0].split(";"))
 
-    save(data)
-    read_jason()
+    #save(data)
+    #read_jason()
     csvfile.close()
-
-    print(data)
-    print("end")
+    return data
 
