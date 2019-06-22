@@ -1,6 +1,6 @@
 # ConversionCSV
-Intrucciones:
-   1. Cargar desde el el archivo GUI.py
+Instrucciones:
+   1. Cargar el programa desde el el archivo GUI.py
    2. Para cargar un CSV ir a Archivo/Cargar CSV y seleccionar, Se pueden seleccionar los archivos de ejemplo test.csv o test(Con error).csv.
    3. Cargado un archivo se muestran en pantalla los datos, para guardar los datos cargados, ir a Archvo/Guardar en BD.
    4. Si se escogió el archvo test(Con error).csv se indica un error en la fila en la cual se detectó el problema, las filas sin error se guardan.
